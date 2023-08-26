@@ -1,4 +1,7 @@
 # Let's Orgasm
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=allenyummy_lets-orgasm-frontend&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=allenyummy_lets-orgasm-frontend)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=allenyummy_lets-orgasm-frontend&metric=coverage)](https://sonarcloud.io/summary/new_code?id=allenyummy_lets-orgasm-frontend)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=allenyummy_lets-orgasm-frontend&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=allenyummy_lets-orgasm-frontend)
 
 Let's Orgasm is a web-based application that hopes to make women have better sex experience.
 
