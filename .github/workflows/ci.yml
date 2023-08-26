@@ -22,13 +22,14 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - run: npm install
+      - name: Install dependencies
+        run: npm install
 
-      - run: npm run test:unit
-
-      - run: npm run build
+      - name: Run unit tests
+        run: npm run test:unit
 
   build:
+    needs: [test]
     runs-on: ubuntu-latest
 
     strategy:
@@ -43,6 +44,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - run: npm install
+      - name: Install dependencies
+        run: npm install
 
+      - name: Run build
       - run: npm run build
