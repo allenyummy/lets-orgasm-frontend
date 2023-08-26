@@ -1,4 +1,6 @@
-# lets-orgasm
+# Let's Orgasm
+
+Let's Orgasm is a web-based application that hopes to make women have better sex experience.
 
 This template should help get you started developing with Vue 3 in Vite.
 
